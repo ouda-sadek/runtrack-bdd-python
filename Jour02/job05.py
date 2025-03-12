@@ -19,5 +19,7 @@ total_superficie = result[0]
 
 print(f"La superficie totale des étages est de {total_superficie} m².")
 
+
+cursor.close()
 conn.close()
 

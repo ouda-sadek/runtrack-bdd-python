@@ -18,7 +18,9 @@ cursor.execute(query)
 result = cursor.fetchone()
 capacite_total = result[0]
 
-print(f"La capacité de toute les salles est de {capacite_total}")
+print(f"La capacité de toute les salles est de {capacite_total} personnes")
 
+
+cursor.close()
 conn.close()
 print("Connexion fermée!")
